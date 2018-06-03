@@ -47,8 +47,9 @@ def bubbleSort(alist,blist,clist,dlist,elist):
                 flist[i] = flist[i+1]
                 flist[i+1] = temp6
 
+bubbleSort(simbolo,nombre,numero,categoria,peso,radiactivo)
 
 val = int(input())
-for val in numero:
+if val in numero:
     print(simbolo[val], nombre[val], numero[val], categoria[val], peso[val], radiactivo[val])
 
