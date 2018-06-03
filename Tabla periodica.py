@@ -18,7 +18,7 @@ Lantanidos = la
 Gases Nobles = gn
 
 def bubbleSort(alist,blist,clist,dlist,elist):
-    for passnum in range(len(alist)1,121,1):
+    for passnum in range(len(alist)(1,121,1)):
         for i in range(passnum):
             if alist[i]>alist[i+1]:
                 temp1 = alist[i]
