@@ -6,16 +6,16 @@ categoria = ["nm", "gn", "ma", "mat", "ml", "nm", "nm", "nm", "ha", "gn", "ma", 
 peso = [1, 4, 7, 9, 10.8, 12, 14, 16, 19, 20, 23, 24, 27, 28, 31, 32, 35, 40, 39, 40, 45, 48, 51, 52, 55, 55.8, 59, 58.6, 63.5, 65.4, 69.7, 72.6, 65, 79, 80, 83.7, 85, 87.6, 89, 91, 93, 96, 99, 101, 103, 106, 107.8, 112.4, 114.8, 118.7, 121.7, 127.6, 127, 131, 133, 137, 139, 140, 141, 144, 147, 150, 152, 157, 159, 162.5, 165, 167, 169, 173, 175, 178.4, 181, 183.8, 186, 190, 192, 195, 197, 200, 204, 207, 209, 209, 210, 222, 223, 226, 227, 232, 231, 238, 237, 244, 243, 247, 247, 251, 252, 257, 258, 259, 266, 267, 268, 272, 274, 276, 278, 281, 283, 285, 287, 289, 291, 293, 294, 294, 316, 320]
 radiactivo = [43, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118]
 
-#Metales Alcalinos = ma
-#metales de transicion = mt
-#metales alcalinoterreos mat
-#metaloide = ml
-#semiconductores = sm
-#Actinidos = ac
-#No Metal = nm
-#Halogenos = ha
-#lantanidos = la
-#Gases Nobles = gn
+Metales Alcalinos = ma
+Metales de Transicion = mt
+Metales Alcalinoterreos mat
+Metaloide = ml
+Semiconductores = sm
+Actinidos = ac
+No Metal = nm
+Halogenos = ha
+Lantanidos = la
+Gases Nobles = gn
 
 def bubbleSort(alist,blist,clist,dlist,elist):
     for passnum in range(len(alist)1,121,1):
