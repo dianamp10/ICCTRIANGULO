@@ -43,7 +43,7 @@ def bubbleSort(alist,blist,clist,dlist,elist):
 
 for val in simbolo:
     print(val)
-for pos in range(0, 5):
+for pos in range(0, 1):
     print(simbolo[pos], nombre[pos], numero[pos], categoria[pos], peso[pos])
 entra = int(input())
 if radiactivo.index(entra) == 1:
