@@ -15,6 +15,6 @@ peso = 0
 #lantanidos = la
 #Gases Nobles = gn
 entra = input(int)
-if entra == (radiactivo):
-    print("si")
-else: print("no")
+if radiactivo.index(entra) == 0:
+    print("Es radiactivo")
+else: print("no es")
