@@ -19,6 +19,30 @@ peso = [1, 4, 7, 9, 10.8, 12, 14, 16, 19, 20, 23, 24, 27, 28, 31, 32, 35, 40, 39
 radiactivo = ["No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "Es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "No es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "Es radiactivo", "No es radiactivo", "No es radiactivo"]
 
 
+
+n=input("ingrese el elemento:")
+metales_alcalinos=["litio","sodio","potasio","rubidio","cesio","francio"]
+metales_de_transicion=["escandio" ,"Titanio" "Vanadio","Cromo","Manganeso","Hierro","Cobalto","Níquel","Cobre","Zinc","Itrio","Zirconio","Niobio","Molibdeno","Tecnecio","Rutenio","Rodio","Paladio","Plata","Cadmio","Lutecio","Hafnio","Tantalio","Wolframio","Renio","Osmio","Iridio","Platino","Oro","Mercurio","Laurencio","Rutherfordio","Dubnio","Seaborgio","Bohrio","Hassio","Meitnerio","Darmstadtio","Roentgenio","Copernicio"]
+metales_alcanoterreos=["berilio", "magnesio","calcio","estroncio","bario","radio"]
+metaloides=["boro","Silicio","Germanio","Arsénico","Antimonio","Telurio","Polonio","Ástato"]
+actinidos=["Actinio","Torio","Protactinio","Uranio","Neptunio","Plutonio","Americio","Curio","Berkelio","Californio","Einstenio","Fermio","Mendelevio","Nobelio""Laurencio"]
+no_metales=["Hidrógeno","Carbono","Nitrógeno","Oxígeno","Flúor","Fósforo","Azufre","Cloro","Selenio","Bromo","Yodo","Astato"]
+halogenos=["flúor","cloro","bromo","yodo","astato","téneso"]
+if n in list(metales_alcalinos):
+    print("metal alcalino")
+elif n in list(metales_de_transicion):
+    print("metal de transicion")
+elif n in list(metales_alcanoterreos):
+    print("metal alcanoterreo")
+elif n in list(metaloides):
+    print("metaloide")
+elif n in list(actinidos):
+    print("actinido")
+elif n in list(no_metales):
+    print("no metal")
+elif n in list(halogenos):
+    print("halogeno")
+
 def bubbleSort(alist,blist,clist,dlist,elist):
     for passnum in range(len(alist)(0,119,1)):
         for i in range(passnum):
