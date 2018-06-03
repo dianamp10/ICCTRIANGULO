@@ -47,8 +47,8 @@ def bubbleSort(alist,blist,clist,dlist,elist):
 for val in simbolo:
     print(val)
 for pos in range(0, 1):
+    if radiactivo.index(val) == 1:
+    print(simbolo[pos], nombre[pos], numero[pos], categoria[pos], peso[pos], "Es radioactivo")
+    else:
     print(simbolo[pos], nombre[pos], numero[pos], categoria[pos], peso[pos])
-entra = int(input())
-if radiactivo.index(entra) == 1:
-    print("Es radiactivo")
-else: print("No es reactivo")
+
