@@ -44,7 +44,7 @@ def bubbleSort(alist,blist,clist,dlist,elist):
                 elist[i] = elist[i+1]
                 elist[i+1] = temp5
 
-val = int(input())               
+val = str(input())               
 for val in simbolo:
     for pos in range(0, 1):
         if radiactivo.index(val) == 1:
