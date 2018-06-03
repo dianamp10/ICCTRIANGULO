@@ -44,6 +44,7 @@ def bubbleSort(alist,blist,clist,dlist,elist):
                 elist[i] = elist[i+1]
                 elist[i+1] = temp5
 
+val = int(input())               
 for val in simbolo:
     print(val)
 for pos in range(0, 1):
