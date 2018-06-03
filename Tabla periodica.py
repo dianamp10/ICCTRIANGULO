@@ -55,4 +55,4 @@ x = simbolo.index(val)
 
 print(simbolo[x], nombre[x], numero[x], categoria[x], peso[x], radiactivo[x])
 
-#bubbleSort(simbolo,nombre,numero,categoria,peso,radiactivo)
+bubbleSort(simbolo,nombre,numero,categoria,peso,radiactivo)
