@@ -15,28 +15,6 @@ numero = ["",1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
 categoria = ["",nm, gn, ma, mat, ml, nm, nm, nm, ha, gn, ma, mat, sm, ml, nm, nm, ha, gn, ma, mat, mt, mt, mt, mt, mt, mt, mt, mt, mt, mt, sm, ml, ml, nm, ha, gn, ma, mat, mt, mt, mt, mt, mt, mt, mt, mt, mt, mt, sm, sm, ml, ml, ha, ma, ma, mat, la, la, la, la, la, la, la, la, la, la, la, la, la, la, la, mt, mt, mt, mt, mt, mt, mt, mt, mt, sm, sm, sm, ml, ha, gn, ma, ma, ac, ac, ac, ac, ac, ac, ac, ac, ac, ac, ac, ac, ac, ac, ac, mt, mt, mt, mt, mt, mt, mt, mt, mt, sm, sm, sm, sm, ha, gn, ma, mat]
 peso = ["",1, 4, 7, 9, 10.8, 12, 14, 16, 19, 20, 23, 24, 27, 28, 31, 32, 35, 40, 39, 40, 45, 48, 51, 52, 55, 55.8, 59, 58.6, 63.5, 65.4, 69.7, 72.6, 65, 79, 80, 83.7, 85, 87.6, 89, 91, 93, 96, 99, 101, 103, 106, 107.8, 112.4, 114.8, 118.7, 121.7, 127.6, 127, 131, 133, 137, 139, 140, 141, 144, 147, 150, 152, 157, 159, 162.5, 165, 167, 169, 173, 175, 178.4, 181, 183.8, 186, 190, 192, 195, 197, 200, 204, 207, 209, 209, 210, 222, 223, 226, 227, 232, 231, 238, 237, 244, 243, 247, 247, 251, 252, 257, 258, 259, 266, 267, 268, 272, 274, 276, 278, 281, 283, 285, 287, 289, 291, 293, 294, 294, 316, 320]
 radiactivo = ["","No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "Si", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "Si", "No", "No"]
-def bubbleSort(alist,blist,clist,dlist,elist,flist):
-     for passnum in range(len(alist)-1,0,-1):
-        for i in range(passnum):
-            if alist[i]>alist[i+1]:
-                temp1 = alist[i]
-                alist[i] = alist[i+1]
-                alist[i+1] = temp1
-                temp2 = blist[i]
-                blist[i] = blist[i+1]
-                blist[i+1] = temp2
-                temp3 = clist[i]
-                clist[i] = clist[i+1]
-                clist[i+1] = temp3
-                temp4 = dlist[i]
-                dlist[i] = dlist[i+1]
-                dlist[i+1] = temp4
-                temp5 = elist[i]
-                elist[i] = elist[i+1]
-                elist[i+1] = temp5
-                temp6 = flist[i]
-                flist[i] = flist[i+1]
-                flist[i] = flist[i+1]
 val = str(input("Ingrese el símbolo: "))
 x = simbolo.index(val)
 print("")
