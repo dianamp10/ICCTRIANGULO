@@ -1,4 +1,3 @@
-#Categorias:
 ma = "Metales Alcalinos"
 mt = "Metales de Transicion"
 mat = "Metales Alcalinoterreos"
@@ -18,8 +17,9 @@ radiactivo = ["","No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No
 val = str(input("Ingrese el símbolo: "))
 x = simbolo.index(val)
 print("")
-print("Nombre del elemento:  ",  nombre[x])
-print("Número atómico:       ",  numero[x])
-print("Categoría:            ",  categoria[x])
-print("Peso atómico:         ",  peso[x]," (g/mol)")
-print("Radiactividad:        ", radiactivo[x])
+print(val)
+print("Número atómico      :  ",  numero[x])
+print("Nombre del elemento :  ",  nombre[x])
+print("Categoría           :  ",  categoria[x])
+print("Peso atómico        :  ",  peso[x]," (g/mol)")
+print("Radiactividad       :  ", radiactivo[x])
