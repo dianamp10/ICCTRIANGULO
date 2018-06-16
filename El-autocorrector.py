@@ -1,8 +1,8 @@
 def crearArchivo():
-    archivo = open("diccito.txt","w")
+    archivo = open("C:\data.txt","w")
     archivo.close()
 def escribirArchivo():
-    archivo = open("diccito.txt","a")
+    archivo = open("C:\data.txt","a")
     archivo.write('nuestro\n')
     archivo.write('burbuja\n')
     archivo.write('puesto\n')
@@ -15,7 +15,7 @@ def escribirArchivo():
     archivo.write('luz\n')
     archivo.close
 def leerArchivo():
-    archivo = open("diccito.txt","r")
+    archivo = open("C:\data.txt","r")
     linea = archivo.readline()
     while linea != "":
         print(linea)
