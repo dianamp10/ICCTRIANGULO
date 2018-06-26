@@ -9,4 +9,4 @@ base = int(input("Ingrese la base: "))
 altura = int(input("Ingrese la altura: ")
 hipotenusa = math.sqrt((base*2)+(altura*2))
 #hacer un triángulo graficamente
-             
+#con símbolos         
