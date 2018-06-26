@@ -10,3 +10,9 @@ altura = int(input("Ingrese la altura: ")
 hipotenusa = math.sqrt((base*2)+(altura*2))
 #hacer un triángulo graficamente
 #con símbolos         
+print("     /|")
+print(("    / |<-")+(" (")+str(altura)+(")"))
+print(("   /<-|---")+(" (")+str(hipotenusa)+(")"))
+print(("  /   |"))
+print("  ``^``")
+print(("   ")+("(")+str(base)+(")"))
