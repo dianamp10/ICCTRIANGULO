@@ -6,3 +6,4 @@ base = 0
 perimetro = 0
 hipotenusa = 0
 base = int(input("Ingrese la base: "))
+hipotenusa = math.sqrt((base*2)+(altura*2))
